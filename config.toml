@@ -50,7 +50,7 @@ theme = "hugo-elate-theme"
   [[params.intro.item]]
     title = "Asóciate"
     description = "Forma parte de la comunidad Espacual."
-    url = "#"
+    url = "https://docs.google.com/forms/d/1ELGh_94N4O_PUhAjDoC_qlfmd_9iStuCIcHyJo2Ob70/edit"
     button = "Asóciate"
     icon = "icon-bulb"
     img = "img_7.jpg"
@@ -58,7 +58,7 @@ theme = "hugo-elate-theme"
   [[params.intro.item]]
     title = "Comunidad Espacual en FaceBook"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
+    url = "https://www.facebook.com/"
     button = "Click Me"
     icon = "icon-wrench"
     img = "img_8.jpg"
@@ -66,7 +66,7 @@ theme = "hugo-elate-theme"
   [[params.intro.item]]
     title = "Comunidad Espacual en Twitter"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    url = "#"
+    url = "https://twitter.com/"
     button = "Why us?"
     icon = "icon-rocket"
     img = "img_10.jpg"
@@ -82,8 +82,8 @@ theme = "hugo-elate-theme"
   [params.work]
     enable = true
     title = "Actividad"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
-    footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
+    description = "Descripción de las actividades de la asociación Espacual."
+    footertext = '** Más información en este enlace <a href="http://blog.espacual.es/" target="_blank">blog.espacual.es</a>'
 
     [[params.work.row]]
       img = "work_1.jpg"
@@ -184,7 +184,7 @@ theme = "hugo-elate-theme"
       img = "person1.jpg"
       alt = "Person1"
       social = [
-        ["icon-twitter", "https://twitter.com/jlopezsi"],
+        ["icon-twitter", "#"],
         ["icon-facebook", "#jlopezsi"],
         ["icon-linkedin", "#jlopezsi"]
       ]
@@ -293,4 +293,5 @@ theme = "hugo-elate-theme"
         ["icon-facebook", "#espacual"],
         ["icon-youtube", "#espacual"]
       ]
+
 
