@@ -155,6 +155,7 @@ theme = "hugo-elate-theme"
       title = "SAIC"
       description = "Seminario avanzado de investigación cualitativa"
       icon = "icon-anchor"
+      url = "https://saic.netlify.com"
 
     [[params.services.item]]
       title = "Otros seminarios en España"
