@@ -1,6 +1,6 @@
 # Page settings
 baseurl = "localhost:1313"
-title = "Elate theme"
+title = "Espacual"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
 
@@ -17,8 +17,9 @@ theme = "hugo-elate-theme"
     brand = "Espacual"
     home = "Inicio"
     work = "Actividad"
-    testimonials = "Testimonials"
-    services = "Services"
+    testimonials = "Conferencias"
+    services = "Formación"
+    publicaciones = "Publicaciones"
     about = "Acerca de"
     contact = "Contacto"
 
@@ -39,23 +40,23 @@ theme = "hugo-elate-theme"
   
   # Hero section
   [params.hero]
-    title = "Do something you love."
-    subtitle = 'Another free HTML5 bootstrap template by <a href="http://freehtml5.co/" target="_blank" title="Free HTML5 Bootstrap Templates">FREEHTML5.co</a> released under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">Creative Commons 3.0</a><br> ported for Hugo by <a href="http://saey55.gitlab.io/pietercv" target="_blank">Pieter Saey</a>'
+    title = "La investigación cualitativa: interpertar el mundo social desde diferentes perspectivas"
+    subtitle = 'Espacual, la Asociación Española para el Avance de la investigación Cualitativa'
  
   # Intro section
   # Available icons: http://simplelineicons.com/
   [params.intro]
 
   [[params.intro.item]]
-    title = "Plan"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Asóciate"
+    description = "Forma parte de la comunidad Espacual."
     url = "#"
-    button = "Get In Touch"
+    button = "Asóciate"
     icon = "icon-bulb"
     img = "img_7.jpg"
 
   [[params.intro.item]]
-    title = "Develop"
+    title = "Comunidad Espacual en FaceBook"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     url = "#"
     button = "Click Me"
@@ -63,7 +64,7 @@ theme = "hugo-elate-theme"
     img = "img_8.jpg"
 
   [[params.intro.item]]
-    title = "Launch"
+    title = "Comunidad Espacual en Twitter"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     url = "#"
     button = "Why us?"
@@ -80,66 +81,66 @@ theme = "hugo-elate-theme"
   # Work section
   [params.work]
     enable = true
-    title = "Work"
+    title = "Actividad"
     description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
     footertext = '** Demo images from <a href="http://plmd.me/" target="_blank">plmd.me</a>'
 
     [[params.work.row]]
       img = "work_1.jpg"
       alt = "Image2"
-      title = "Project 1"
-      subtitle = "Branding"
+      title = "Workshop Espacual"
+      subtitle = "Comparte los resultados de tu investigación cualitativa"
 
     [[params.work.row]]
       img = "work_2.jpg"
       alt = "Image2"
-      title = "Project 2"
-      subtitle = "Design"
+      title = "Conferencia Iberacual"
+      subtitle = "La conferencia Iberoamericana de investigación cualitativa"
 
     [[params.work.row]]
       img = "work_3.jpg"
       alt = "Image3"
-      title = "Project 3"
-      subtitle = "Design"
+      title = "Formación"
+      subtitle = "Seminario avanzado de investigación cualitativa"
 
     [[params.work.row]]
       img = "work_4.jpg"
       alt = "Image4"
-      title = "Project 4"
-      subtitle = "Design"
+      title = "Publicaciones"
+      subtitle = "Colección fundamentos"
 
     [[params.work.row]]
       img = "work_5.jpg"
       alt = "Image5"
-      title = "Project 5"
-      subtitle = "Design"
+      title = "Publicaciones"
+      subtitle = "Colección perspectivas"
 
     [[params.work.row]]
       img = "work_6.jpg"
       alt = "Image6"
-      title = "Project 6"
-      subtitle = "Design"
+      title = "Publicaciones"
+      subtitle = "Colección herramientas digitales"
 
-  # Testimonials section
+  # Testimonials -conferences- section
   [params.testimonials]
     enable = true
-    title = "Testimonials"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Conferencias"
+    description = "Comparte los resultados de tu investigación."
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.&rdquo;"
+      quote = "&ldquo; Conferencias nacionales.&rdquo;"
       person = 'Jean Doe, CEO <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
       img = "person1.jpg"
       alt = "Person1"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.&rdquo;"
+      quote = "&ldquo;Conferencias internacinales en Europa.&rdquo;"
       person = 'John Doe, Senior UI <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
       img = "person2.jpg"
       alt = "Person2"
 
     [[params.testimonials.item]]
-      quote = "&ldquo;Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. &rdquo;"
+      quote = "&ldquo;Conferencias internacionales fura de Europa. &rdquo;"
       person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
       img = "person3.jpg"
       alt = "Person3"
@@ -150,37 +151,37 @@ theme = "hugo-elate-theme"
   # Services section
   [params.services]
     enable = true
-    title = "Services"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Formación"
+    description = "Seminarios de formación continuada."
 
     [[params.services.item]]
-      title = "Brand &amp; Strategy"
-      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
+      title = "SAIC"
+      description = "Seminario avanzado de investigación cualitativa"
       icon = "icon-anchor"
 
     [[params.services.item]]
-      title = "Web &amp; Interface"
+      title = "Otros seminarios en España"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
       icon = "icon-layers2"
     [[params.services.item]]
-      title = "Photo &amp; Video"
+      title = "Otros seminarios en Europa"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"
       icon = "icon-video2"
 
       [[params.services.item]]
-      title = "CMS &amp; eCommerce"
+      title = "Seminarios herramientas digitales"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean"      
       icon = "icon-monitor"
 
   # About section
   [params.about]
     enable = true
-    title = "About"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Acerca de"
+    description = "Las personas que en estos momentos desarrollan Espacual." 
 
     [[params.about.item]]
-      name = "Jean Smith"
-      position = "Web Designer"
+      name = "Jordi López"
+      position = "Presidente"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "person1.jpg"
       alt = "Person1"
@@ -191,8 +192,8 @@ theme = "hugo-elate-theme"
       ]
 
     [[params.about.item]]
-      name = "Rob Smith"
-      position = "Web Developer"
+      name = "Elena Pérez"
+      position = "Vicepresidenta"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "person2.jpg"
       alt = "Person2"
@@ -203,8 +204,8 @@ theme = "hugo-elate-theme"
       ]
 
     [[params.about.item]]
-      name = "Larry Ben"
-      position = "Web Designer"
+      name = "Mari Carmen"
+      position = "Tesorera"
       description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
       img = "person3.jpg"
       alt = "Person3"
@@ -212,7 +213,18 @@ theme = "hugo-elate-theme"
         ["icon-twitter", "#"],
         ["icon-facebook", "#"],
         ["icon-dribbble", "#"]
-      ]      
+      ]   
+    [[params.about.item]]
+      name = "Carmen de la Cuesta"
+      position = "Secreataria"
+      description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts"
+      img = "person3.jpg"
+      alt = "Person3"
+      social = [
+        ["icon-twitter", "#"],
+        ["icon-facebook", "#"],
+        ["icon-dribbble", "#"]
+      ]   
 
   # Counters section
   [params.counters]
@@ -257,31 +269,31 @@ theme = "hugo-elate-theme"
     enable = true
     map = true
     form = true
-    title = "Get in touch"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    title = "Contacta con nosotros"
+    description = "Envíanos un correo o llama por teléfono."
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "5555 Love Paradise 56 New Clity 5655, <br> Excel Tower United Kingdom"],
-        ["icon-phone", "(123) 465-6789"],
-        ["icon-envelope", "info@freehtml5.co"],
-        ["icon-globe", '<a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>']
+        ["icon-home", "Universitat Autònoma de Barcelona, <br> Dept. d'Empresa, Edificio B, despacho B1-118"],
+        ["icon-phone", "(93) 5812270"],
+        ["icon-envelope", "Presidencia@espacual.es"],
+        ["icon-globe", '<a href="http://www.uab.cat/" target="_blank">www.uab.cat</a>']
       ]
 
-    name = "Name"
+    name = "Nombre"
     email = "Email"
-    phone = "Phone"
-    message = "Message"
-    button = "Send message"
+    phone = "Teléfono"
+    message = "Mensaje"
+    button = "Enviar mensaje"
 
   # Footer section
   [params.footer]
     enable = true
     copyright = '&copy; Elate Free HTML5. All Rights Reserved. <br>Created by <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> Images: <a href="http://pexels.com/" target="_blank">Pexels</a>, <a href="http://plmd.me/" target="_blank">plmd.me</a> <br>Hugo port by: <a href="https://github.com/saey55" target="_blank">saey55</a>'
     links = [
-        ["icon-twitter", "#twitter"],
-        ["icon-facebook", "#facebook"],
-        ["icon-youtube", "#youtube"]
+        ["icon-twitter", "#espacual"],
+        ["icon-facebook", "#espacual"],
+        ["icon-youtube", "#espacual"]
       ]
   #ignore files
   ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
