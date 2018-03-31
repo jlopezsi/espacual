@@ -1,5 +1,5 @@
 # Page settings
-baseurl = "localhost:1313"
+baseurl = "/"
 title = "Espacual"
 languageCode = "en-us"
 theme = "hugo-elate-theme"
@@ -99,7 +99,7 @@ theme = "hugo-elate-theme"
 
     [[params.work.row]]
       img = "work_3.jpg"
-      alt = "Image3"
+      alt = "SAIC"
       title = "Formación"
       subtitle = "Seminario avanzado de investigación cualitativa"
 
@@ -144,9 +144,6 @@ theme = "hugo-elate-theme"
       person = 'Chris Nash, Director <a href="http://freehtml5.co/" target="_blank">FREEHTML5.co</a> <span class="subtext">Creative Director</span>'
       img = "person3.jpg"
       alt = "Person3"
-    
-
-
 
   # Services section
   [params.services]
