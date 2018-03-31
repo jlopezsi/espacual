@@ -152,7 +152,7 @@ theme = "hugo-elate-theme"
     description = "Seminarios de formación continuada."
 
     [[params.services.item]]
-      title = "SAIC"
+      title = "<a href="SAIC" target="_blank">https://saic.netlify.com</a>"
       description = "Seminario avanzado de investigación cualitativa"
       icon = "icon-anchor"
       url = "https://saic.netlify.com"
@@ -184,9 +184,9 @@ theme = "hugo-elate-theme"
       img = "person1.jpg"
       alt = "Person1"
       social = [
-        ["icon-twitter", "#"],
-        ["icon-facebook", "#"],
-        ["icon-linkedin", "#"]
+        ["icon-twitter", "https://twitter.com/jlopezsi"],
+        ["icon-facebook", "#jlopezsi"],
+        ["icon-linkedin", "#jlopezsi"]
       ]
 
     [[params.about.item]]
@@ -272,7 +272,7 @@ theme = "hugo-elate-theme"
     
     # Available icons: http://simplelineicons.com/
     details = [
-        ["icon-home", "Universitat Autònoma de Barcelona, <br> Dept. d'Empresa, Edificio B, despacho B1-118"],
+        ["icon-home", "Universitat Autònoma de Barcelona, <br> Dept. d'Empresa, Edificio B, despacho B1-118, 08193-Bellaterra"],
         ["icon-phone", "(93) 5812270"],
         ["icon-envelope", "Presidencia@espacual.es"],
         ["icon-globe", '<a href="http://www.uab.cat/" target="_blank">www.uab.cat</a>']
@@ -293,5 +293,4 @@ theme = "hugo-elate-theme"
         ["icon-facebook", "#espacual"],
         ["icon-youtube", "#espacual"]
       ]
-  #ignore files
-  ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+

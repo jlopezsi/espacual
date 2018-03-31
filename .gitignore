@@ -6,3 +6,8 @@ blogdown
 #Thumbs.db  # if a windows user (.DS_Stor), Thumbs.db instead
 public/ # if using Netlify
 scratch/
+  #ignore files
+\\.Rmd"
+\\.Rmarkdown$
+_files$
+_cache$
