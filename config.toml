@@ -65,7 +65,7 @@ theme = "hugo-elate-theme"
 
   [[params.intro.item]]
     title = "Comunidad Espacual en Twitter"
-    description = "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts."
+    description = "Nos encontrarás con el identificador Espacual."
     url = "https://twitter.com/"
     button = "Why us?"
     icon = "icon-rocket"
